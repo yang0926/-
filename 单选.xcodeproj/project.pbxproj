@@ -13,6 +13,10 @@
 		6ECE16CB1D69534A00DAA286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE16C91D69534A00DAA286 /* Main.storyboard */; };
 		6ECE16CD1D69534A00DAA286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE16CC1D69534A00DAA286 /* Assets.xcassets */; };
 		6ECE16D01D69534A00DAA286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE16CE1D69534A00DAA286 /* LaunchScreen.storyboard */; };
+		6ECE16D91D69548C00DAA286 /* ValueListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE16D81D69548C00DAA286 /* ValueListViewController.m */; };
+		6ECE16DC1D695A5000DAA286 /* ValueListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE16DB1D695A5000DAA286 /* ValueListCell.m */; };
+		6ECE16DF1D695C2100DAA286 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE16DE1D695C2100DAA286 /* UIView+Frame.m */; };
+		6ECE16E11D695D6500DAA286 /* cell_checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE16E01D695D6500DAA286 /* cell_checkmark@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		6ECE16CC1D69534A00DAA286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ECE16CF1D69534A00DAA286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ECE16D11D69534A00DAA286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECE16D71D69548C00DAA286 /* ValueListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueListViewController.h; sourceTree = "<group>"; };
+		6ECE16D81D69548C00DAA286 /* ValueListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueListViewController.m; sourceTree = "<group>"; };
+		6ECE16DA1D695A5000DAA286 /* ValueListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueListCell.h; sourceTree = "<group>"; };
+		6ECE16DB1D695A5000DAA286 /* ValueListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueListCell.m; sourceTree = "<group>"; };
+		6ECE16DD1D695C2100DAA286 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		6ECE16DE1D695C2100DAA286 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		6ECE16E01D695D6500DAA286 /* cell_checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_checkmark@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +69,17 @@
 		6ECE16BF1D69534A00DAA286 /* 单选 */ = {
 			isa = PBXGroup;
 			children = (
+				6ECE16E01D695D6500DAA286 /* cell_checkmark@2x.png */,
+				6ECE16DD1D695C2100DAA286 /* UIView+Frame.h */,
+				6ECE16DE1D695C2100DAA286 /* UIView+Frame.m */,
 				6ECE16C31D69534A00DAA286 /* AppDelegate.h */,
 				6ECE16C41D69534A00DAA286 /* AppDelegate.m */,
 				6ECE16C61D69534A00DAA286 /* ViewController.h */,
 				6ECE16C71D69534A00DAA286 /* ViewController.m */,
+				6ECE16D71D69548C00DAA286 /* ValueListViewController.h */,
+				6ECE16D81D69548C00DAA286 /* ValueListViewController.m */,
+				6ECE16DA1D695A5000DAA286 /* ValueListCell.h */,
+				6ECE16DB1D695A5000DAA286 /* ValueListCell.m */,
 				6ECE16C91D69534A00DAA286 /* Main.storyboard */,
 				6ECE16CC1D69534A00DAA286 /* Assets.xcassets */,
 				6ECE16CE1D69534A00DAA286 /* LaunchScreen.storyboard */,
@@ -138,6 +156,7 @@
 			files = (
 				6ECE16D01D69534A00DAA286 /* LaunchScreen.storyboard in Resources */,
 				6ECE16CD1D69534A00DAA286 /* Assets.xcassets in Resources */,
+				6ECE16E11D695D6500DAA286 /* cell_checkmark@2x.png in Resources */,
 				6ECE16CB1D69534A00DAA286 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ECE16DF1D695C2100DAA286 /* UIView+Frame.m in Sources */,
+				6ECE16D91D69548C00DAA286 /* ValueListViewController.m in Sources */,
+				6ECE16DC1D695A5000DAA286 /* ValueListCell.m in Sources */,
 				6ECE16C81D69534A00DAA286 /* ViewController.m in Sources */,
 				6ECE16C51D69534A00DAA286 /* AppDelegate.m in Sources */,
 				6ECE16C21D69534A00DAA286 /* main.m in Sources */,
